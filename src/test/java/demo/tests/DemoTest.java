@@ -10,7 +10,7 @@ public class DemoTest {
   @BeforeTest
   public void beforeTest() {
      System.out.println("Before Test ....");
-  
+      
   }
   
   
@@ -20,6 +20,7 @@ public class DemoTest {
 	  Assert.assertEquals(false,false);
 	  Thread.sleep(5000);
 	  System.out.println("Executing Test after sleep 5 sec....");
+	  Assert.assertEquals(false,false);
   }
   
   
