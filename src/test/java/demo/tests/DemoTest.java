@@ -27,6 +27,17 @@ public class DemoTest {
   }
   
   
+  @Test
+  public void test2() throws InterruptedException {
+	  System.out.println("Executing Test ....");
+	  Assert.assertEquals(false,false);
+	  
+	  System.out.println("Executing Test 2...");
+	  Assert.assertEquals(false,false);
+  
+  }
+  
+  
   
   @AfterTest
   public void afterTest() {
