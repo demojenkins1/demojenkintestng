@@ -19,7 +19,7 @@ public class DemoTest {
 	  System.out.println("Executing Test ....");
 	  Assert.assertEquals(false,false);
 	  Thread.sleep(5000);
-	  System.out.println("Executing Test after sleep  sec....");
+	  System.out.println("Executing Test after sleep 5 sec....");
   }
   
   
