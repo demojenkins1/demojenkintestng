@@ -7,6 +7,8 @@ import org.testng.annotations.AfterTest;
 
 public class DemoTest {
   
+	
+		
   @BeforeTest
   public void beforeTest() {
      System.out.println("Before Test ....");
@@ -18,9 +20,10 @@ public class DemoTest {
   public void test1() throws InterruptedException {
 	  System.out.println("Executing Test ....");
 	  Assert.assertEquals(false,false);
-	  Thread.sleep(5000);
-	  System.out.println("Executing Test after sleep 5 sec....");
+	  
+	  System.out.println("Executing Test without any sleep....");
 	  Assert.assertEquals(false,false);
+  
   }
   
   
