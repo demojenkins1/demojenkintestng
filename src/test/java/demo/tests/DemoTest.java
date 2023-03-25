@@ -15,9 +15,10 @@ public class DemoTest {
   
   
   @Test
-  public void f() {
+  public void test1() throws InterruptedException {
 	  System.out.println("Executing Test ....");
 	  Assert.assertEquals(false,false);
+	  Thread.sleep(5000);
   }
   
   
